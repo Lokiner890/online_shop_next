@@ -1,0 +1,28 @@
+@import 'modern-normalize/modern-normalize.css';
+@import '@radix-ui/themes/styles.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-wrapper {
+  position: relative;
+  z-index: 0;
+}
+
+main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+button,
+a {
+  cursor: pointer;
+}
